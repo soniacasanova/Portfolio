@@ -7,6 +7,7 @@
   --primary-color: #1814DB;
   --light-color: #fff;
   --spacing-sections: 13.563rem;
+  --spacing-title: 7.813rem;
 }
 
 body {
@@ -28,8 +29,21 @@ h2, h3, h4, h5, h6 {
 
 body {
   color: red;
+  font-size: var(  --base-font-size);
 }
+p, ul, li {
+  font-size: var(  --base-font-size);
+}
+section {
+    background-image: url('./assets/img/gradient.png');
+    background-position: right top;
+    background-repeat: no-repeat;
+} 
 
 .spacings {
   margin: var(--spacing-sections) 0;
+}
+
+.spacing-titles {
+  margin: var(--spacing-title) 0;
 }

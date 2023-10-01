@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logoSC from '../assets/img/logo_SC.png'
 import './Header.scss';
 
@@ -11,13 +12,17 @@ const Header = () => {
     <div className="">
       <ul className="list-unstyled d-flex flex-row gap-5">
         <li className="nav-item">
-          <a className="nav-link line-through active" aria-current="page" href="#">Home</a>
+          <span className="nav-link line-through active" aria-current="page">
+          <Link to="*" className='text-decoration-none'>Home</Link>
+          </span>
         </li>
         <li className="nav-item">
-          <a className="nav-link line-through" href="#">About Me</a>
+          <span className="nav-link line-through">
+            <Link to="/about" className='text-decoration-none'>About</Link></span>
         </li>
         <li className="nav-item">
-          <a className="nav-link line-through" href="#">Blog</a>
+        <span className="nav-link line-through">
+            <Link to="/blog" className='text-decoration-none'>Blog</Link></span>
         </li>
       </ul>
     </div>
