@@ -1,0 +1,51 @@
+h1 {
+ span {
+    color: var(--primary-color);
+}
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100% !important;
+    flex: 1 !important;
+  }
+
+.unequal-double-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100% !important;
+    flex: 2 !important;
+  }
+/*Accordion cards*/
+  .accordion-card {
+    padding: 2.25rem;
+  }
+  .accordion-content.mt-4 {
+    display: grid;
+    grid-gap: 1.5rem;
+}
+  span.icon-design {
+    svg {
+      color: var(--primary-color);
+    }
+  }
+
+  
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 1
+    }
+  
+
+    .unequal-double-column {
+      flex: 2
+    }
+  }

@@ -1,0 +1,35 @@
+:root {
+  --main-font-family: 'Inter', sans-serif;
+  --heading-font-family: 'Inter', sans-serif;
+  --base-font-size: 20px;
+  --heading-font-size: 48px;
+  --font-color: #000000;
+  --primary-color: #1814DB;
+  --light-color: #fff;
+  --spacing-sections: 13.563rem;
+}
+
+body {
+  font-family: var(--main-font-family);
+  font-size: var(--base-font-size);
+  color: var(--font-color);
+}
+
+h1 {
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size);
+  font-weight: 400 !important;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font-family);
+  font-weight: 400 !important;
+}
+
+body {
+  color: red;
+}
+
+.spacings {
+  margin: var(--spacing-sections) 0;
+}

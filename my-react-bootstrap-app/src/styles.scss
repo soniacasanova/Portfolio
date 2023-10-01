@@ -1,0 +1,20 @@
+// src/styles/styles.scss
+
+// Custom Bootstrap color variables
+$primary: #007bff;
+$secondary: #6c757d;
+$success: #28a745;
+$danger: #dc3545;
+$info: #17a2b8;
+$warning: #ffc107;
+$light: #f8f9fa;
+$dark: #343a40;
+
+
+$blue: #1814DB;
+$white: #fff;
+
+
+
+// Import Bootstrap SCSS files after defining custom variables
+@import '~bootstrap/scss/bootstrap';
