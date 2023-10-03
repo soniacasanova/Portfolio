@@ -16,9 +16,9 @@ const Footer = () => {
         </div>
         <div>
           <ul className='list-unstyled d-flex gap-4'>
-            <li className='icon'><FontAwesomeIcon icon={faLinkedinIn} className='color-light' /></li>
-            <li className='icon'><FontAwesomeIcon icon={faInstagram} className='color-light'/></li>
-            <li className='icon'><FontAwesomeIcon icon={faEnvelope} className='color-light'/></li>
+            <li className='icon'><a href='https://www.linkedin.com/in/soniacasanova/' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={faLinkedinIn} className='color-light' /></a></li>
+            <li className='icon'><FontAwesomeIcon icon={faInstagram} className='color-light' /></li>
+            <li className='icon'><a href='mailto:soniacasanovar@gmail.com'><FontAwesomeIcon icon={faEnvelope} className='color-light'/></a></li>
           </ul>
         </div>
       </div>

@@ -1,4 +1,7 @@
 import React from "react";
+import './Blog.scss'
+import imageBlog from '../assets/img/Rectangle 6.png'
+
 
 const Blog = () => {
     return (
@@ -12,6 +15,36 @@ const Blog = () => {
             </div>
             <div className="column"></div>
           </div>
+          </div>
+          <div className="spacings-lg-bottom">
+             {/* article 1 */}
+            <div className="row spacings-sm-bottom">
+              <div className="column">
+                <div className="img-box-left">
+                <img src={imageBlog} alt="Image Blog"/>
+                </div>
+              </div>
+              <div className="column">
+                <div className="blog-home-text">
+                    <span className="tag">UX/UI</span>
+                    <h2 className="display-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                </div>
+              </div>
+            </div>
+            {/* article 2 */}
+            <div className="row spacings-sm-bottom">
+              <div className="column">
+              <div className="blog-home-text">
+                    <span className="tag">CODE</span>
+                    <h2 className="display-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                </div>
+              </div>
+              <div className="column">
+              <div className="img-box">
+                <img src={imageBlog} alt="Image Blog"/>
+                </div>
+              </div>
+            </div>
           </div>
             </div>
         </section>

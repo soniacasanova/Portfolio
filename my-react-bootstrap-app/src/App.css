@@ -7,6 +7,7 @@
   --primary-color: #1814DB;
   --light-color: #fff;
   --spacing-sections: 13.563rem;
+  --spacing-smaller-section: 5.625rem;
   --spacing-title: 7.813rem;
 }
 
@@ -34,16 +35,27 @@ body {
 p, ul, li {
   font-size: var(  --base-font-size);
 }
-section {
+body {
     background-image: url('./assets/img/gradient.png');
-    background-position: right top;
+    background-position: right 140px;
     background-repeat: no-repeat;
 } 
 
 .spacings {
   margin: var(--spacing-sections) 0;
 }
-
+.spacings-lg-bottom {
+  margin-bottom: var( --spacing-sections);
+}
+.spacings-lg-top {
+  margin-top: var( --spacing-sections);
+}
+.spacings-sm-top {
+  margin-top: var( --spacing-smaller-section) ;
+}
+.spacings-sm-bottom {
+  margin-bottom: var( --spacing-smaller-section);
+}
 .spacing-titles {
-  margin: var(--spacing-title) 0;
+  margin-bottom: var(--spacing-title);
 }
