@@ -2,10 +2,7 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaintBrush, faCode } from '@fortawesome/free-solid-svg-icons'
 import arrow from '../assets/img/arrow.png'
-import image1 from '../assets/img/Rectangle 1.jpg'
-import image2 from '../assets/img/Rectangle 2.jpg'
 import image3 from '../assets/img/Rectangle 3.jpg'
-import image4 from '../assets/img/Rectangle 4.jpg'
 import './Home.scss'
 
 
@@ -50,11 +47,11 @@ const Home = () => {
               <div className="accordion-card shadow rounded bg-light">
                 <div className={`accordion-section ${openSections.includes(1) ? 'open' : ''}`} onClick={() => handleToggle(1)}>
                 <div className="accordion-header d-flex justify-content-between">
-                  <div className="d-flex gap-3">
-                  <span className="icon-design fa-lg"><FontAwesomeIcon icon={faPaintBrush}/></span><h5>UX/UI</h5>
+                  <div className="d-flex align-items-center gap-3">
+                  <span className="icon-design fa-lg"><FontAwesomeIcon icon={faPaintBrush}/></span><h4 className="m-0">UX/UI</h4>
                   </div>
                   <div className="" style={getArrowRotation(1)}>
-                  <img src={arrow} className="w-75" alt="arrow" />
+                  <img src={arrow} className="w-75 arrow-skills" alt="arrow" />
                   </div>
                   </div>
                 {openSections.includes(1) && <div className="accordion-content mt-4">
@@ -77,11 +74,11 @@ const Home = () => {
                 <div className="accordion-card shadow rounded bg-light">
                 <div className={`accordion-section ${openSections.includes(2) ? 'open' : ''}`} onClick={() => handleToggle(2)}>
                 <div className="accordion-header d-flex justify-content-between">
-                <div className="d-flex gap-3">
-                  <span className="icon-design fa-lg pr-2"><FontAwesomeIcon icon={faCode}/></span><h5>Front End Development</h5>
+                <div className="d-flex align-items-center gap-3">
+                  <span className="icon-design fa-lg pr-2"><FontAwesomeIcon icon={faCode}/></span><h4 className="m-0">Front End Development</h4>
                   </div>
                   <div className="fa-lg" style={getArrowRotation(2)}>
-                  <img src={arrow} className="w-75" alt="arrow" />
+                  <img src={arrow} className="w-75 arrow-skills" alt="arrow" />
                   </div>
                   </div>
                 {openSections.includes(2) && 
@@ -118,10 +115,15 @@ const Home = () => {
                 <h1 className="m-0">Selected Work</h1>
                 </div>
               <div className="grid-container">
-              <div className="grid-item"><img src={image1} alt="project one" /></div>
-              <div className="grid-item"><img src={image2} alt="project two" /></div>
-              <div className="grid-item"><img src={image3} alt="project three" /></div>
-              <div className="grid-item"><img src={image4} alt="project four" /></div>
+              <div className="grid-item">
+                <div className="shadow"><img src={image3} alt="project one" /></div>
+                <div class="bouncing-loader">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              </div>
+           
           </div>
             </div>
             </div>

@@ -9,12 +9,12 @@ const Blog = () => {
             <div className="container">
       {/* Title */}
         <div className="spacings">
-          <div className="row">
+         {/*} <div className="row">
             <div className="unequal-double-column">
             <h1 className="pb-2">Journey in Design, Code, and Creativity</h1>
             </div>
             <div className="column"></div>
-          </div>
+    </div>*/}
           </div>
           <div className="spacings-lg-bottom">
              {/* article 1 */}
@@ -26,8 +26,11 @@ const Blog = () => {
               </div>
               <div className="column">
                 <div className="blog-home-text">
-                    <span className="tag">UX/UI</span>
+                  <div className="group">
+                  <span className="tag">UX/UI</span>
                     <h2 className="display-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                  </div>
+                 {/* <div className="group2"><em>21 de Septiembre de 2023</em></div>*/}
                 </div>
               </div>
             </div>
@@ -35,12 +38,15 @@ const Blog = () => {
             <div className="row spacings-sm-bottom">
               <div className="column">
               <div className="blog-home-text">
-                    <span className="tag">CODE</span>
+                <div className="group">
+                <span className="tag">CODE</span>
                     <h2 className="display-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                </div>
+                {/* <div className="group2"><em>21 de Septiembre de 2023</em></div>*/}
                 </div>
               </div>
               <div className="column">
-              <div className="img-box">
+              <div className="img-box-right">
                 <img src={imageBlog} alt="Image Blog"/>
                 </div>
               </div>

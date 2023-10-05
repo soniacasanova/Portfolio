@@ -1,15 +1,17 @@
+
 :root {
   --main-font-family: 'Inter', sans-serif;
   --heading-font-family: 'Inter', sans-serif;
   --base-font-size: 20px;
-  --heading-font-size: 48px;
-  --font-color: #000000;
+  --heading-font-size: 2.8rem;
+  --font-color: #17171F;
   --primary-color: #1814DB;
   --light-color: #fff;
   --spacing-sections: 13.563rem;
   --spacing-smaller-section: 5.625rem;
   --spacing-title: 7.813rem;
 }
+
 
 body {
   font-family: var(--main-font-family);
@@ -19,7 +21,7 @@ body {
 
 h1 {
   font-family: var(--heading-font-family);
-  font-size: var(--heading-font-size);
+  font-size: var(--heading-font-size) !important;
   font-weight: 400 !important;
 }
 
