@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.713b4810.css",
-    "main.js": "/Portfolio/static/js/main.d362d918.js",
+    "main.js": "/Portfolio/static/js/main.129a5ea4.js",
     "static/js/787.421ea985.chunk.js": "/Portfolio/static/js/787.421ea985.chunk.js",
     "static/media/IMG_2.jpg": "/Portfolio/static/media/IMG_2.2bae5a865af88b3fb7aa.jpg",
-    "static/media/Rectangle 6.png": "/Portfolio/static/media/Rectangle 6.eef6b3cd168ffe5596c6.png",
     "static/media/gradient.png": "/Portfolio/static/media/gradient.7161ed293db6a6e7f824.png",
     "static/media/CV_SoniaCasanova.pdf": "/Portfolio/static/media/CV_SoniaCasanova.deb3d31415089d353d8b.pdf",
+    "static/media/Rectangle-6.jpg": "/Portfolio/static/media/Rectangle-6.a32f12c440bfd1efe1c7.jpg",
     "index.html": "/Portfolio/index.html",
     "main.713b4810.css.map": "/Portfolio/static/css/main.713b4810.css.map",
-    "main.d362d918.js.map": "/Portfolio/static/js/main.d362d918.js.map",
+    "main.129a5ea4.js.map": "/Portfolio/static/js/main.129a5ea4.js.map",
     "787.421ea985.chunk.js.map": "/Portfolio/static/js/787.421ea985.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.713b4810.css",
-    "static/js/main.d362d918.js"
+    "static/js/main.129a5ea4.js"
   ]
 }
