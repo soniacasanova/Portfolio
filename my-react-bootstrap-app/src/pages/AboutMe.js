@@ -23,7 +23,7 @@ const AboutMe = () => {
           </div>
             </div>
             <div className="portrait animate__animated animate__fadeInUp">
-          <img src={portrait} alt="portrait" />
+          <img src={portrait} alt="Landscape image and me" />
           </div>
           <div className="container px-5 spacings-sm-top spacings-lg-bottom ">
             <p className="container-text animate__animated animate__fadeInUp">Hello, I'm Sonia – a dedicated Front End Developer and UX/UI Designer from the vibrant streets of Barcelona, with a passion for solving problems and continuous learning. With a background in design, I embarked on a transformative adventure in Norway, where I hunt through into the world of coding, teaching myself the intricacies of web development. 
