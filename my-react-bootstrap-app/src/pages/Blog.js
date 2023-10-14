@@ -18,7 +18,7 @@ const Blog = () => {
           </div>
           <div className="spacings-lg-bottom">
              {/* article 1 */}
-            <div className="row spacings-sm-bottom row-responsive">
+            <div className="row spacings-sm-bottom row-responsive animate__animated animate__fadeInUp">
               <div className="column p-0">
                 <div className="img-box-left">
                 <img src={imageBlog} alt="Image Blog"/>

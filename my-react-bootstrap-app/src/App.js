@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import 'animate.css';
 import Home from './pages/Home';
 import AboutMe from './pages/AboutMe';
 import Blog from './pages/Blog';

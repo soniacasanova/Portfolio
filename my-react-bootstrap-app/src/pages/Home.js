@@ -31,7 +31,7 @@ const Home = () => {
         <div className="container">
       {/* Title */}
             <div className="spacings">
-          <div className="row">
+          <div className="row animate__animated animate__fadeInUp">
             <div className="unequal-double-column">
             <h1 className="pb-2">Hi! I am <span>Sonia Casanova</span> <br></br>
               UX/UI Designer & Front End Developer</h1>
@@ -41,7 +41,7 @@ const Home = () => {
           </div>
           </div>
           {/* Skills */}
-          <div>
+          <div className="animate__animated animate__fadeInUp">
             <div className="row gap-5">
               <div className="column">
               <div className="accordion-card shadow rounded bg-light">
