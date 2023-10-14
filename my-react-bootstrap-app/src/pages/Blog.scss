@@ -1,3 +1,4 @@
+
 .blog-home-text {
     display: inline-grid;
     justify-items: start;
@@ -7,6 +8,7 @@
         display: inline-grid;
         justify-items: start;
         grid-gap: 3rem;
+        padding: 0 2rem;
     }
 
     h2 {
@@ -21,22 +23,26 @@
 }
 
 .img-box-left {
-    position: relative;
-    height: 502px;
 
     img {
-        position: absolute;
-        right: 76px;
+       width: 100%;
+       object-fit: cover;
+       height: 500px;
     }
 }
 
-.img-box-right {
-    position: relative;
-    height: 502px;
 
-    img {
-        position: absolute;
-        left: 97px;
+@media screen and (max-width: 1000px) {
+    .row-responsive {
+        flex-direction: column;
+    }    
+    .blog-home-text .group {
+        margin-top: 2rem;
     }
 }
 
+@media screen and (max-width: 800px) {
+    .img-box-left img {
+        height: 259px;
+    }
+}

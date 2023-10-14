@@ -25,6 +25,9 @@ h1 {
     flex: 2 !important;
   }
 /*Accordion cards*/
+  .accordion-header {
+    cursor: pointer;
+  }
   .accordion-card {
     padding: 2.25rem;
   }
@@ -112,3 +115,10 @@ h1 {
       flex: 2
     }
   }
+@media screen and (max-width: 986px ) {
+
+  .unequal-double-column {
+    flex: none !important;
+  }
+   
+}

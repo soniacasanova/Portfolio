@@ -46,7 +46,7 @@ const Home = () => {
               <div className="column">
               <div className="accordion-card shadow rounded bg-light">
                 <div className={`accordion-section ${openSections.includes(1) ? 'open' : ''}`} onClick={() => handleToggle(1)}>
-                <div className="accordion-header d-flex justify-content-between">
+                <div className="accordion-header d-flex justify-content-between align-items-center">
                   <div className="d-flex align-items-center gap-3">
                   <span className="icon-design fa-lg"><FontAwesomeIcon icon={faPaintBrush}/></span><h4 className="m-0">UX/UI</h4>
                   </div>
@@ -73,9 +73,10 @@ const Home = () => {
               <div className="column">
                 <div className="accordion-card shadow rounded bg-light">
                 <div className={`accordion-section ${openSections.includes(2) ? 'open' : ''}`} onClick={() => handleToggle(2)}>
-                <div className="accordion-header d-flex justify-content-between">
+                <div className="accordion-header d-flex justify-content-between align-items-center">
                 <div className="d-flex align-items-center gap-3">
-                  <span className="icon-design fa-lg pr-2"><FontAwesomeIcon icon={faCode}/></span><h4 className="m-0">Front End Development</h4>
+                  <span className="icon-design fa-lg pr-2"><FontAwesomeIcon icon={faCode}/></span>
+                  <h4 className="m-0">Front End Development</h4>
                   </div>
                   <div className="fa-lg" style={getArrowRotation(2)}>
                   <img src={arrow} className="w-75 arrow-skills" alt="arrow" />
@@ -123,7 +124,6 @@ const Home = () => {
                 <div></div>
               </div>
               </div>
-           
           </div>
             </div>
             </div>

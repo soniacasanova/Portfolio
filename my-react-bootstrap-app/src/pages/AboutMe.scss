@@ -7,7 +7,8 @@
 }
 
 p.container-text {
-    width: 992px;
+    max-width: 992px;
+    width: auto;
     margin: 0 auto;
 }
 span.button-dwn {
@@ -19,4 +20,10 @@ button.dwn-pdf {
     background: transparent;
     border: none;
     color: var(--primary-color);
+}
+
+@media screen and (max-width: 820px){
+    .portrait img {
+        height: 200px;
+    }
 }

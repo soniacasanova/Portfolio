@@ -6,7 +6,7 @@ import imageBlog from '../assets/img/Rectangle 6.png'
 const Blog = () => {
     return (
         <section>
-            <div className="container">
+            <div className="">
       {/* Title */}
         <div className="spacings">
          {/*} <div className="row">
@@ -18,13 +18,13 @@ const Blog = () => {
           </div>
           <div className="spacings-lg-bottom">
              {/* article 1 */}
-            <div className="row spacings-sm-bottom">
-              <div className="column">
+            <div className="row spacings-sm-bottom row-responsive">
+              <div className="column p-0">
                 <div className="img-box-left">
                 <img src={imageBlog} alt="Image Blog"/>
                 </div>
               </div>
-              <div className="column">
+              <div className="column justify-content-center">
                 <div className="blog-home-text">
                   <div className="group">
                   <span className="tag">UX/UI</span>
