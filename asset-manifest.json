@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.ed74e49c.css",
-    "main.js": "/Portfolio/static/js/main.0c6c4d40.js",
+    "main.js": "/Portfolio/static/js/main.ea52b96b.js",
     "static/js/787.421ea985.chunk.js": "/Portfolio/static/js/787.421ea985.chunk.js",
     "static/media/IMG_2.jpg": "/Portfolio/static/media/IMG_2.2bae5a865af88b3fb7aa.jpg",
     "static/media/gradient.png": "/Portfolio/static/media/gradient.7161ed293db6a6e7f824.png",
-    "static/media/CV_SoniaCasanova.pdf": "/Portfolio/static/media/CV_SoniaCasanova.deb3d31415089d353d8b.pdf",
+    "static/media/CV_SoniaCasanova.pdf": "/Portfolio/static/media/CV_SoniaCasanova.94fc568fb3b2792ded08.pdf",
     "static/media/Rectangle-6.jpg": "/Portfolio/static/media/Rectangle-6.a32f12c440bfd1efe1c7.jpg",
     "index.html": "/Portfolio/index.html",
     "main.ed74e49c.css.map": "/Portfolio/static/css/main.ed74e49c.css.map",
-    "main.0c6c4d40.js.map": "/Portfolio/static/js/main.0c6c4d40.js.map",
+    "main.ea52b96b.js.map": "/Portfolio/static/js/main.ea52b96b.js.map",
     "787.421ea985.chunk.js.map": "/Portfolio/static/js/787.421ea985.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ed74e49c.css",
-    "static/js/main.0c6c4d40.js"
+    "static/js/main.ea52b96b.js"
   ]
 }
