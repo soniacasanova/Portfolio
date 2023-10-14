@@ -1,6 +1,6 @@
 import React from "react";
 import './Blog.scss'
-import imageBlog from '../assets/img/Rectangle 6.png'
+import imageBlog from '../assets/img/Rectangle-6.jpg'
 
 
 const Blog = () => {
@@ -21,7 +21,7 @@ const Blog = () => {
             <div className="row spacings-sm-bottom row-responsive animate__animated animate__fadeInUp">
               <div className="column p-0">
                 <div className="img-box-left">
-                <img src={imageBlog} alt="Image Blog"/>
+                <img src={imageBlog} alt="web optimization"/>
                 </div>
               </div>
               <div className="column justify-content-center">
