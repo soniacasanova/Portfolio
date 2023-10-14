@@ -28,7 +28,7 @@ const Blog = () => {
                 <div className="blog-home-text">
                   <div className="group">
                   <span className="tag">UX/UI</span>
-                    <h2 className="display-4">The Need for Speed: Enhancing User Experiences Through Performance Optimization in Design</h2>
+                    <h2 className="display-4">Enhancing User Experiences Through Performance Optimization in Design</h2>
                     <em className="font-small">COMING SOON</em>
                   </div>
                  {/* <div className="group2"><em>21 de Septiembre de 2023</em></div>*/}

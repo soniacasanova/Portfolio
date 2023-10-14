@@ -59,12 +59,12 @@ const Home = () => {
                   <h5>Design Tools</h5>
                   <ul className="list-unstyled">
                     <li>Figma</li>
-                    <li>Font FontAwesome</li>
+                    <li>FontAwesome</li>
                     <li>Pen & Paper</li>
                     <li>Adobe XD</li>
                     <li>Sketch</li>
-                    <li>Laws of UX</li>
-                    <li>Principles of Lean UX</li>
+                    <li>Hotjar</li>
+                    <li>Google Analytics</li>
                   </ul>
                   </div>}
                 </div>
