@@ -28,13 +28,14 @@ const Blog = () => {
                 <div className="blog-home-text">
                   <div className="group">
                   <span className="tag">UX/UI</span>
-                    <h2 className="display-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                    <h2 className="display-4">The Need for Speed: Enhancing User Experiences Through Performance Optimization in Design</h2>
+                    <em className="font-small">COMING SOON</em>
                   </div>
                  {/* <div className="group2"><em>21 de Septiembre de 2023</em></div>*/}
                 </div>
               </div>
             </div>
-            {/* article 2 */}
+            {/* article 2 
             <div className="row spacings-sm-bottom">
               <div className="column">
               <div className="blog-home-text">
@@ -42,7 +43,7 @@ const Blog = () => {
                 <span className="tag">CODE</span>
                     <h2 className="display-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                 </div>
-                {/* <div className="group2"><em>21 de Septiembre de 2023</em></div>*/}
+                {/* <div className="group2"><em>21 de Septiembre de 2023</em></div>
                 </div>
               </div>
               <div className="column">
@@ -50,7 +51,7 @@ const Blog = () => {
                 <img src={imageBlog} alt="Image Blog"/>
                 </div>
               </div>
-            </div>
+            </div>*/}
           </div>
             </div>
         </section>

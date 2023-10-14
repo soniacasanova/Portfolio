@@ -10,3 +10,13 @@ p.container-text {
     width: 992px;
     margin: 0 auto;
 }
+span.button-dwn {
+    svg {
+        color: var(--primary-color);
+    }
+}
+button.dwn-pdf {
+    background: transparent;
+    border: none;
+    color: var(--primary-color);
+}
