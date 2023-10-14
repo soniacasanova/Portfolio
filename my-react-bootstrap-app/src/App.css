@@ -8,6 +8,7 @@
   --primary-color: #1814DB;
   --light-color: #fff;
   --spacing-sections: 13.563rem;
+  --spacing-sections-mobile: 10.563rem;
   --spacing-smaller-section: 5.625rem;
   --spacing-title: 7.813rem;
 }
@@ -60,4 +61,15 @@ body {
 }
 .spacing-titles {
   margin-bottom: var(--spacing-title);
+}
+
+
+@media screen and (max-width: 760px) {
+
+  .spacings {
+  margin: var(--spacing-sections-mobile) 0;
+  }
+  .spacings-lg-top {
+    margin-top: var( --spacing-sections-mobile);
+  }
 }
