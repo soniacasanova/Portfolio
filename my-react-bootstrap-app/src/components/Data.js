@@ -16,7 +16,7 @@ const Articles = [
             "The first step is to conduct user research to understand your audience’s needs, behaviours and preferences. This research helps us identify the root causes behind high drop-off rates. For example, lack of clarity regarding the shopping process, and th us, develop a relevant solution that is more likely to generate a positive outcome. Also, creating user personas and user journeys to guide the design process and ensure the website meets users' expectations.",
             "<br>",
             "<strong>Intuitive Navigation</strong>",
-            "We also need to consider that our website’s navigation is intuitive by creating a design that is clear and that uses familiar patterns and labels for menus and buttons. Yon Yabloski explains the concept of familiarity in his book “laws of UX”, states.",
+            "We also need to consider that our website’s navigation is intuitive by creating a design that is clear and that uses familiar patterns and labels for menus and buttons. Yon Yabloski explains the concept of familiarity in his book “laws of UX”, states:",
             "<em>“Familiarity helps the people interacting with a digital product or service know immediately how to use it”</em>.", 
             "This ensures that users don’t have to spend a lot of mental effort to learn a new interface, making it easier for them to achieve their goals successfully.",
             "<br>",
