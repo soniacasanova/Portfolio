@@ -3,9 +3,10 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import 'animate.css';
 import Home from './pages/Home';
 import AboutMe from './pages/AboutMe';
-import Blog from './pages/Blog';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import BlogList from './pages/BlogList';
+import BlogPost from './pages/BlogPost';
 import './App.css';
 import './styles.scss'; 
 
@@ -19,7 +20,8 @@ function App() {
     <Routes>
       <Route path="*" element={<Home />} />
       <Route path="/about" element={<AboutMe />} />
-      <Route path="/blog" element={<Blog />} />
+      <Route path="/bloglist" element={<BlogList />} />
+      <Route path="/post/:id" element={<BlogPost />} />
     </Routes>
     </div>
     <Footer />

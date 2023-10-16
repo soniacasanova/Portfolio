@@ -22,7 +22,7 @@ const Header = () => {
         </li>
         <li className="nav-item">
         <span className="nav-link line-through">
-            <NavLink to="/blog" className='text-decoration-none' activeClassName="active">Blog</NavLink></span>
+            <NavLink to="/bloglist" className='text-decoration-none' activeClassName="active">Blog</NavLink></span>
         </li>
       </ul>
     </div>
