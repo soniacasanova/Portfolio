@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.ed74e49c.css",
-    "main.js": "/Portfolio/static/js/main.e0a2a6a5.js",
+    "main.css": "/Portfolio/static/css/main.bf43acd9.css",
+    "main.js": "/Portfolio/static/js/main.dd7e1658.js",
     "static/js/787.421ea985.chunk.js": "/Portfolio/static/js/787.421ea985.chunk.js",
     "static/media/IMG_2.jpg": "/Portfolio/static/media/IMG_2.2bae5a865af88b3fb7aa.jpg",
     "static/media/gradient.png": "/Portfolio/static/media/gradient.7161ed293db6a6e7f824.png",
+    "static/media/Rectangle-6.jpg": "/Portfolio/static/media/Rectangle-6.bc5b96f927d12ce21668.jpg",
+    "static/media/research-ux.jpg": "/Portfolio/static/media/research-ux.bdd4c67837c8176667c0.jpg",
     "static/media/CV_SoniaCasanova.pdf": "/Portfolio/static/media/CV_SoniaCasanova.94fc568fb3b2792ded08.pdf",
-    "static/media/Rectangle-6.jpg": "/Portfolio/static/media/Rectangle-6.a32f12c440bfd1efe1c7.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.ed74e49c.css.map": "/Portfolio/static/css/main.ed74e49c.css.map",
-    "main.e0a2a6a5.js.map": "/Portfolio/static/js/main.e0a2a6a5.js.map",
+    "main.bf43acd9.css.map": "/Portfolio/static/css/main.bf43acd9.css.map",
+    "main.dd7e1658.js.map": "/Portfolio/static/js/main.dd7e1658.js.map",
     "787.421ea985.chunk.js.map": "/Portfolio/static/js/787.421ea985.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed74e49c.css",
-    "static/js/main.e0a2a6a5.js"
+    "static/css/main.bf43acd9.css",
+    "static/js/main.dd7e1658.js"
   ]
 }
