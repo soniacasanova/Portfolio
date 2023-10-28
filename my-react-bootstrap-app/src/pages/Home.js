@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaintBrush, faCode } from '@fortawesome/free-solid-svg-icons'
 import arrow from '../assets/img/arrow.png'
@@ -25,6 +26,10 @@ const Home = () => {
   const getArrowRotation = (section) => {
     return openSections.includes(section) ? { transform: 'rotate(90deg)', transition: 'transform 0.3s ease' } : {};
   };
+
+  const projects = [
+    { id: 1, name: 'Nutrific' },
+  ];
 
     return (
       <section>
@@ -116,14 +121,11 @@ const Home = () => {
                 <h1 className="m-0">Selected Work</h1>
                 </div>
               <div className="grid-container">
-              <div className="grid-item">
-                <div className="shadow"><img src={image3} alt="project one" /></div>
-                <div class="bouncing-loader">
-                <div></div>
-                <div></div>
-                <div></div>
-              </div>
-              </div>
+                  {projects.map(project => (
+              <li key={project.id}>
+                <Link to={`/project/${project.id}`}>{project.name}</Link>
+              </li>
+            ))}
           </div>
             </div>
             </div>

@@ -1,0 +1,159 @@
+.equal-double-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100% !important;
+    flex: 1 !important;
+}
+
+/* Button */
+
+$white: var(--light-color);
+$blue: var(--primary-color);
+
+@mixin transition($property: all, $duration: 0.45s, $ease: cubic-bezier(0.65, 0, .076, 1)) {
+    transition: $property $duration $ease;
+}
+
+
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: var(--base-font-size);
+    font-family: inherit;
+
+    &.learn-more {
+        width: 12rem;
+        height: auto;
+
+        .circle {
+            @include transition(all, 0.45s, cubic-bezier(0.65, 0, .076, 1));
+            position: relative;
+            display: block;
+            margin: 0;
+            width: 3rem;
+            height: 3rem;
+            background: $blue;
+            border-radius: 1.625rem;
+
+            .icon {
+                @include transition(all, 0.45s, cubic-bezier(0.65, 0, .076, 1));
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                background: $white;
+
+                &.arrow {
+                    @include transition(all, 0.45s, cubic-bezier(0.65, 0, .076, 1));
+                    left: 0.625rem;
+                    width: 1.125rem;
+                    height: 0.125rem;
+                    background: none;
+
+                    &::before {
+                        position: absolute;
+                        content: '';
+                        top: -0.25rem;
+                        right: 0.0625rem;
+                        width: 0.625rem;
+                        height: 0.625rem;
+                        border-top: 0.125rem solid #fff;
+                        border-right: 0.125rem solid #fff;
+                        transform: rotate(45deg);
+                    }
+                }
+            }
+        }
+
+        .button-text {
+            @include transition(all, 0.45s, cubic-bezier(0.65, 0, .076, 1));
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            padding: 0.75rem 0;
+            margin: 0 0 0 1.85rem;
+            color: $blue;
+            font-weight: 600;
+            line-height: 1.5;
+            text-align: center;
+        }
+    }
+
+    &:hover {
+        .circle {
+            width: 100%;
+
+            .icon {
+                &.arrow {
+                    background: $white;
+                    transform: translate(1rem, 0);
+                }
+            }
+        }
+
+        .button-text {
+            color: $white;
+        }
+    }
+}
+
+.auto-grid {
+    --auto-grid-min-size: 9rem;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    grid-gap: 1.1rem;
+}
+
+
+p.project-details {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.project-banner {
+    img {
+        width: 100%;
+        object-fit: cover;
+        height: 683px;
+    }
+}
+
+.bg-section {
+    background-color: var(--light-gray-color);
+}
+
+ul.project-list {
+    color: var(--primary-color);
+    margin-top: 2rem;
+
+    li {
+        margin-bottom: 1.2rem;
+    }
+}
+
+.font-images {
+    display: flex;
+
+    img {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:1600px) {
+
+    .button-text {
+        line-height: 1.2 !important;
+    }
+
+}
