@@ -117,8 +117,16 @@ function Nutrific() {
                         <h2 className='display-5 mb-5'>Typography</h2>
                     </div>
                     <div className='spacings-sm font-images'>
+                        <div className='d-flex flex-column'>
                         <img src={satoshi} alt="Satoshi font image" width='100%' />
-                        <img src={asgard} alt="Asgard font image" width='100%' />
+                        <p className='pt-5 mt-auto'>Satoshi is a clean and easy-to-read font, ensuring the website's content remains accessible and legible. Its simplicity and versatility make it ideal for conveying detailed information, including articles, meal plans, and client testimonials.</p>
+                        </div>
+                        <div className='d-flex flex-column pb-2'>
+                            <img src={asgard} alt="Asgard font image" width='100%' />
+                            <p className='pt-5 mt-auto'>Asgard Wide is a bold and elegant font that conveys a sense of professionalism and modernity. Using it for the main title adds an air of authority and establishes a strong brand presence</p>
+                        </div>
+                    </div>
+                    <div>
                     </div>
                 </div>
             </div>
