@@ -151,6 +151,12 @@ ul.project-list {
     }
 }
 
+.palette {
+    img {
+        width: 70%;
+    }
+}
+
 /*Back to Top*/
 
 .back-to-top {
@@ -163,8 +169,8 @@ ul.project-list {
     border-radius: 0.5rem;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-  
-  
+
+
 
 @media screen and (min-width:1600px) {
 
@@ -180,8 +186,22 @@ ul.project-list {
         gap: 3rem;
         flex-flow: column-reverse;
     }
+
     .project-banner img {
         height: 100%;
     }
-  }
 
+    .font-images {
+        flex-direction: column;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .palette {
+        img {
+            width: 100%;
+        }
+    }
+}

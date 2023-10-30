@@ -9,7 +9,8 @@ import asgard from '../assets/img/Nutrific/asgard.jpg'
 import colorPalette from '../assets/img/Nutrific/color_palette.png'
 import components from '../assets/img/Nutrific/components.png'
 import style from '../assets/img/Nutrific/style.jpg'
-import wireframes from '../assets/img/Nutrific/wireframes.jpg'
+import wireframe1 from '../assets/img/Nutrific/wireframe1.jpg'
+import wireframe2 from '../assets/img/Nutrific/wireframe2.jpg'
 import mvp from '../assets/img/Nutrific/mvp.png'
 import mockupVideo from '../assets/img/Nutrific/iphone_compressed.mp4'
 
@@ -113,7 +114,7 @@ function Nutrific() {
             <div className=''>
                 <div className='container'>
                     <div className='text-center'>
-                        <h2 className='display-5 mb-5'>Design System</h2>
+                        <h2 className='display-5 mb-5'>Typography</h2>
                     </div>
                     <div className='spacings-sm font-images'>
                         <img src={satoshi} alt="Satoshi font image" width='100%' />
@@ -132,8 +133,8 @@ function Nutrific() {
                             <p>The choice of a white background signifies purity, cleanliness, and clarity, reflecting the core values of health and nutrition. Meanwhile, the predominant green color embodies freshness, vitality, and the essence of organic foods, evoking a feeling of rejuvenation. The addition of a deep color brings depth and sophistication to the design, ensuring a well-rounded visual experience. When combined, these colors work in harmony to create an environment that exudes both a nurturing and professional ambiance.</p>
                         </div>
                     </div>
-                    <div className='spacings-sm-top text-left'>
-                        <img src={colorPalette} alt="color palette" width="70%" />
+                    <div className='spacings-sm-top text-left palette'>
+                        <img src={colorPalette} alt="color palette" />
                     </div>
                 </div>
             </div>
@@ -168,13 +169,13 @@ function Nutrific() {
                 </div>
             </div>
             {/* Seventh section */}
-            <div className='spacings-lg-top spacings-sm-bottom'>
+            <div className='spacings-lg-top spacings-lg-bottom'>
                 <div className='container text-center'>
                     <div>
                         <h2 className='display-5 mb-5'>Wireframes</h2>
                     </div>
                     <div className='spacings-sm'>
-                        <img src={wireframes} alt="wireframes" width='100%' />
+                        <img src={wireframe1} alt="wireframes" width='100%' />
                     </div>
                 </div>
             </div>
