@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.07a6bd5e.css",
-    "main.js": "/Portfolio/static/js/main.d1a9eae3.js",
+    "main.css": "/Portfolio/static/css/main.09c8223f.css",
+    "main.js": "/Portfolio/static/js/main.5ff05ea0.js",
     "static/js/787.421ea985.chunk.js": "/Portfolio/static/js/787.421ea985.chunk.js",
     "static/media/iphone_compressed.mp4": "/Portfolio/static/media/iphone_compressed.56bf68bd694454468675.mp4",
     "static/media/portada_nutrific.png": "/Portfolio/static/media/portada_nutrific.cd9b1a69701bed7c6f18.png",
@@ -20,12 +20,12 @@
     "static/media/components.png": "/Portfolio/static/media/components.54d3d7b29fda5d6f6814.png",
     "static/media/color_palette.png": "/Portfolio/static/media/color_palette.9af5f40027bf37729302.png",
     "index.html": "/Portfolio/index.html",
-    "main.07a6bd5e.css.map": "/Portfolio/static/css/main.07a6bd5e.css.map",
-    "main.d1a9eae3.js.map": "/Portfolio/static/js/main.d1a9eae3.js.map",
+    "main.09c8223f.css.map": "/Portfolio/static/css/main.09c8223f.css.map",
+    "main.5ff05ea0.js.map": "/Portfolio/static/js/main.5ff05ea0.js.map",
     "787.421ea985.chunk.js.map": "/Portfolio/static/js/787.421ea985.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.07a6bd5e.css",
-    "static/js/main.d1a9eae3.js"
+    "static/css/main.09c8223f.css",
+    "static/js/main.5ff05ea0.js"
   ]
 }
