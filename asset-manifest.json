@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.09c8223f.css",
-    "main.js": "/Portfolio/static/js/main.5ff05ea0.js",
+    "main.css": "/Portfolio/static/css/main.6aa14476.css",
+    "main.js": "/Portfolio/static/js/main.2eed26b9.js",
     "static/js/787.421ea985.chunk.js": "/Portfolio/static/js/787.421ea985.chunk.js",
     "static/media/iphone_compressed.mp4": "/Portfolio/static/media/iphone_compressed.56bf68bd694454468675.mp4",
     "static/media/portada_nutrific.png": "/Portfolio/static/media/portada_nutrific.cd9b1a69701bed7c6f18.png",
@@ -16,16 +16,16 @@
     "static/media/research-ux.jpg": "/Portfolio/static/media/research-ux.bdd4c67837c8176667c0.jpg",
     "static/media/CV_SoniaCasanova.pdf": "/Portfolio/static/media/CV_SoniaCasanova.94fc568fb3b2792ded08.pdf",
     "static/media/satoshi.jpg": "/Portfolio/static/media/satoshi.7788935fbfbbf8a8c921.jpg",
+    "static/media/color_palette.jpg": "/Portfolio/static/media/color_palette.d87beb88130a8588213d.jpg",
     "static/media/asgard.jpg": "/Portfolio/static/media/asgard.f0d40d0b55b4ff449bbc.jpg",
     "static/media/components.png": "/Portfolio/static/media/components.54d3d7b29fda5d6f6814.png",
-    "static/media/color_palette.png": "/Portfolio/static/media/color_palette.9af5f40027bf37729302.png",
     "index.html": "/Portfolio/index.html",
-    "main.09c8223f.css.map": "/Portfolio/static/css/main.09c8223f.css.map",
-    "main.5ff05ea0.js.map": "/Portfolio/static/js/main.5ff05ea0.js.map",
+    "main.6aa14476.css.map": "/Portfolio/static/css/main.6aa14476.css.map",
+    "main.2eed26b9.js.map": "/Portfolio/static/js/main.2eed26b9.js.map",
     "787.421ea985.chunk.js.map": "/Portfolio/static/js/787.421ea985.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.09c8223f.css",
-    "static/js/main.5ff05ea0.js"
+    "static/css/main.6aa14476.css",
+    "static/js/main.2eed26b9.js"
   ]
 }
