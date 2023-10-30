@@ -1,8 +1,8 @@
 .equal-double-column {
     display: flex;
     flex-direction: column;
-    flex-basis: 100% !important;
-    flex: 1 !important;
+    flex-basis: 100%;
+    flex: 1;
 }
 
 /* Button */
@@ -144,11 +144,27 @@ ul.project-list {
 
 .font-images {
     display: flex;
+    gap: 1.5rem;
 
     img {
         width: 50%;
     }
 }
+
+/*Back to Top*/
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    background: white;
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.5rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+  
+  
 
 @media screen and (min-width:1600px) {
 
@@ -157,3 +173,15 @@ ul.project-list {
     }
 
 }
+
+
+@media screen and (max-width: 1000px) {
+    .reverse-order {
+        gap: 3rem;
+        flex-flow: column-reverse;
+    }
+    .project-banner img {
+        height: 100%;
+    }
+  }
+

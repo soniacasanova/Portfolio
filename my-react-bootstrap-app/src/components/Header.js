@@ -8,7 +8,7 @@ const Header = () => {
     <header>
      <nav className="navbar">
     <div className="container">
-    <a className="navbar-brand"><img src={logoSC} alt="Logo Sonia Casanova" /></a>
+    <a className="navbar-brand"><NavLink to="*" className='text-decoration-none' activeClassName="active"><img src={logoSC} alt="Logo Sonia Casanova" /></NavLink></a>
     <div className="">
       <ul className="m-0 list-unstyled d-flex flex-row gap-4">
         <li className="nav-item">

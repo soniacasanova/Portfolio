@@ -13,6 +13,9 @@
   --spacing-medium-section: 8.625rem;
   --spacing-title: 7.813rem;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 * {
   box-sizing: border-box;

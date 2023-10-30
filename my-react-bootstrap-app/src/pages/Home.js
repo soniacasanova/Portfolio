@@ -4,10 +4,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaintBrush, faCode } from '@fortawesome/free-solid-svg-icons'
 import arrow from '../assets/img/arrow.png'
 import image3 from '../assets/img/Rectangle 3.jpg'
+import coverImage from '../assets/img/Nutrific/portada_nutrific.png'
 import './Home.scss'
 
 
 const Home = () => {
+
 
   const [openSections, setOpenSections] = useState([]);
 
@@ -28,7 +30,7 @@ const Home = () => {
   };
 
   const projects = [
-    { id: 1, name: 'Nutrific' },
+    { id: 1, name: 'Crafting a User-Friendly Nutrition Hub', imageCover: coverImage },
   ];
 
     return (
@@ -120,13 +122,30 @@ const Home = () => {
                 <div className="spacing-titles">
                 <h1 className="m-0">Selected Work</h1>
                 </div>
-              <div className="grid-container">
-                  {projects.map(project => (
-              <li key={project.id}>
-                <Link to={`/project/${project.id}`}>{project.name}</Link>
-              </li>
+        <div>
+          <div className="spacings-sm-bottom row-responsive animate__animated animate__fadeInUp">
+          {projects.map(project => (
+              <div className='row row-responsive ' key={project.id}>
+                <div className="column justify-content-center">
+                  <div className="blog-home-text">
+                    <div className="group">
+                      <div>
+                      <Link to={`/project/${project.id}`}>
+                        <h2 className="display-4">{project.name}</h2>
+                      </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="column p-0">
+                <div className="img-box-project">
+                  <img src={coverImage} alt='cover project Nutrific∫' />
+                </div>
+                </div>
+                </div>
             ))}
           </div>
+        </div>
             </div>
             </div>
         </section>
