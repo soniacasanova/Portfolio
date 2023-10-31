@@ -86,7 +86,7 @@ function Nutrific() {
                             <h2 className='display-5 mb-5'>Main Goal</h2>
                         </div>
                         <div className="column">
-                            <p>The main goal of this project is to create an inviting, user-friendly, and informative website that encourages visitors to explore the services and resources offered by the Nutrition Center. The design must convey a sense of trustworthiness, expertise, and approachability to engage potential clients, while also providing easy access to essential information and services.</p>
+                            <p>The main goal of this project is to create an inviting, user-friendly, and informative Landing Page that encourages visitors to explore the services and resources offered by the Nutrition Center. The design must convey a sense of trustworthiness, expertise, and approachability to engage potential clients, while also providing easy access to essential information and services.</p>
                         </div>
                     </div>
                 </div>
@@ -119,7 +119,7 @@ function Nutrific() {
                     <div className='spacings-sm font-images'>
                         <div className='d-flex flex-column align-items-center'>
                         <img src={satoshi} alt="Satoshi font image" />
-                        <p className='pt-5 mt-auto'>Satoshi is a clean and easy-to-read font, ensuring the website's content remains accessible and legible. Its simplicity and versatility make it ideal for conveying detailed information, including articles, meal plans, and client testimonials.</p>
+                        <p className='pt-5 mt-auto'>Satoshi is a clean and easy-to-read font, ensuring the landing's content remains accessible and legible. Its simplicity and versatility make it ideal for conveying detailed information, including articles, meal plans, and client testimonials.</p>
                         </div>
                         <div className='d-flex flex-column align-items-center'>
                             <img src={asgard} alt="Asgard font image" />
