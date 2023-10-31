@@ -1,3 +1,30 @@
+/*Animation*/
+
+.text-container {
+  display: inline-block;
+  position: relative;
+
+  .text {
+    background: linear-gradient(90deg, transparent, var(--primary-color));
+    background-size: 200% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: slideBackground 5s infinite linear; /* Adjust the animation duration as needed */
+  }
+}
+
+@keyframes slideBackground {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/*End Animation*/
+
 h1 {
  span {
     color: var(--primary-color);

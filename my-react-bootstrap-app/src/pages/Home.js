@@ -10,7 +10,6 @@ import './Home.scss'
 
 const Home = () => {
 
-
   const [openSections, setOpenSections] = useState([]);
 
   const handleToggle = (section) => {
@@ -29,6 +28,8 @@ const Home = () => {
     return openSections.includes(section) ? { transform: 'rotate(90deg)', transition: 'transform 0.3s ease' } : {};
   };
 
+
+
   const projects = [
     { id: 1, name: 'Crafting a User-Friendly Nutrition Hub', imageCover: coverImage },
   ];
@@ -40,7 +41,7 @@ const Home = () => {
             <div className="spacings">
           <div className="row animate__animated animate__fadeInUp">
             <div className="unequal-double-column">
-            <h1 className="pb-2">Hi! I am <span>Sonia Casanova</span> <br></br>
+            <h1 className="pb-2 text-container">Hi! I am <span className="text">Sonia Casanova</span> <br></br>
               UX/UI Designer & Front End Developer</h1>
             <p className="subtitle">I create designs and breathe life into them with code, all while loving every moment of the process.</p>
             </div>
