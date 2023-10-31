@@ -42,7 +42,7 @@ const Home = () => {
             <div className="unequal-double-column">
             <h1 className="pb-2">Hi! I am <span>Sonia Casanova</span> <br></br>
               UX/UI Designer & Front End Developer</h1>
-            <p>I create designs and breathe life into them with code, all while loving every moment of the process.</p>
+            <p className="subtitle">I create designs and breathe life into them with code, all while loving every moment of the process.</p>
             </div>
             <div className="column"></div>
           </div>
