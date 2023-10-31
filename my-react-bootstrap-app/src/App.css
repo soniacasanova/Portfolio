@@ -1,8 +1,8 @@
 :root {
   --main-font-family: 'Inter', sans-serif;
-  --heading-font-family: 'Inter', sans-serif;
+  --heading-font-family:  'Syne', sans-serif;
   --base-font-size: 20px;
-  --heading-font-size: clamp(2rem, 1.4286rem + 1.8286vw, 2.8rem);
+  --heading-font-size: clamp(2rem, 0.9286rem + 3.4286vw, 3.5rem);
   --font-color: #17171F;
   --primary-color: #1814DB;
   --light-color: #fff;
@@ -35,13 +35,12 @@ body {
   background-repeat: no-repeat;
 }
 
-h1 {
+h1, h2 {
   font-family: var(--heading-font-family);
   font-size: var(--heading-font-size) !important;
-  font-weight: 400 !important;
+  font-weight: 500 !important;
 }
 
-h2,
 h3,
 h4,
 h5,

@@ -42,7 +42,7 @@ const Home = () => {
             <div className="unequal-double-column">
             <h1 className="pb-2">Hi! I am <span>Sonia Casanova</span> <br></br>
               UX/UI Designer & Front End Developer</h1>
-            <h4>I create designs and breathe life into them with code, all while loving every moment of the process.</h4>
+            <p>I create designs and breathe life into them with code, all while loving every moment of the process.</p>
             </div>
             <div className="column"></div>
           </div>
@@ -119,9 +119,9 @@ const Home = () => {
               </div>
               </div>
               <div className="spacings">
-                <div className="spacing-titles">
+                {/*<div className="spacing-titles">
                 <h1 className="m-0">Projects</h1>
-                </div>
+                </div>*/}
         <div>
           <div className="spacings-sm-bottom row-responsive animate__animated animate__fadeInUp">
           {projects.map(project => (
