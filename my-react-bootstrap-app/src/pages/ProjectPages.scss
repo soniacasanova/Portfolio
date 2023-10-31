@@ -116,9 +116,10 @@ button {
 
 
 p.project-details {
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 0.5px;
+        font-family: 'Syne';
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 0.5px;
 }
 
 .project-banner {
@@ -168,7 +169,11 @@ ul.project-list {
     background: white;
     padding: 0.5rem 0.8rem;
     border-radius: 0.5rem;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(24, 20, 219, 0.4) 5px 5px,
+     rgba(24, 20, 219, 0.3) 10px 10px, 
+     rgba(24, 20, 219, 0.2) 15px 15px, 
+     rgba(24, 20, 219, 0.1) 20px 20px,
+    rgba(24, 20, 219, 0.05) 25px 25px;
 }
 
 
