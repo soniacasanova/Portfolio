@@ -2,7 +2,7 @@
   --main-font-family: 'Inter', sans-serif;
   --heading-font-family:  'Syne', sans-serif;
   --base-font-size: 20px;
-  --heading-font-size: clamp(2.1rem, 0.9286rem + 3.4286vw, 3.5rem);
+  --heading-font-size: clamp(2rem, 0.9286rem + 3.4286vw, 3.5rem);
   --subtitle-font-size: clamp(1.1rem, 0.8857rem + 0.6857vw, 1.5rem);
   --font-color: #17171F;
   --primary-color: #1814DB;
