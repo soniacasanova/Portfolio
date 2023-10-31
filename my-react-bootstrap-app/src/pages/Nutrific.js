@@ -10,7 +10,6 @@ import colorPalette from '../assets/img/Nutrific/color_palette.jpg'
 import components from '../assets/img/Nutrific/components.png'
 import style from '../assets/img/Nutrific/style.jpg'
 import wireframe1 from '../assets/img/Nutrific/wireframe1.jpg'
-import wireframe2 from '../assets/img/Nutrific/wireframe2.jpg'
 import mvp from '../assets/img/Nutrific/mvp.png'
 import mockupVideo from '../assets/img/Nutrific/iphone_compressed.mp4'
 

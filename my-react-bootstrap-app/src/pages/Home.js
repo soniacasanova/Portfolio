@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPaintBrush, faCode } from '@fortawesome/free-solid-svg-icons'
 import arrow from '../assets/img/arrow.png'
-import image3 from '../assets/img/Rectangle 3.jpg'
+import mouse from '../assets/img/Nutrific/mouse.png'
 import coverImage from '../assets/img/Nutrific/portada_nutrific.png'
 import './Home.scss'
 
@@ -120,7 +120,7 @@ const Home = () => {
               </div>
               <div className="spacings">
                 <div className="spacing-titles">
-                <h1 className="m-0">Selected Work</h1>
+                <h1 className="m-0">Projects</h1>
                 </div>
         <div>
           <div className="spacings-sm-bottom row-responsive animate__animated animate__fadeInUp">
@@ -131,7 +131,7 @@ const Home = () => {
                     <div className="group">
                       <div>
                       <Link to={`/project/${project.id}`}>
-                        <h2 className="display-4">{project.name}</h2>
+                        <h2 className="display-4">{project.name} <img src={mouse} alt='mouse' width="30px"/></h2>
                       </Link>
                       </div>
                     </div>
@@ -139,7 +139,9 @@ const Home = () => {
                 </div>
                 <div className="column p-0">
                 <div className="img-box-project">
-                  <img src={coverImage} alt='cover project Nutrific∫' />
+                <Link to={`/project/${project.id}`}>
+                  <img src={coverImage} alt='cover project Nutrific' />
+                  </Link>
                 </div>
                 </div>
                 </div>
