@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.fab03ab9.css",
+    "main.css": "/Portfolio/static/css/main.333425ca.css",
     "main.js": "/Portfolio/static/js/main.0535100b.js",
     "static/js/787.421ea985.chunk.js": "/Portfolio/static/js/787.421ea985.chunk.js",
     "static/media/iphone_compressed.mp4": "/Portfolio/static/media/iphone_compressed.56bf68bd694454468675.mp4",
@@ -19,12 +19,12 @@
     "static/media/asgard.jpg": "/Portfolio/static/media/asgard.f0d40d0b55b4ff449bbc.jpg",
     "static/media/components.png": "/Portfolio/static/media/components.54d3d7b29fda5d6f6814.png",
     "index.html": "/Portfolio/index.html",
-    "main.fab03ab9.css.map": "/Portfolio/static/css/main.fab03ab9.css.map",
+    "main.333425ca.css.map": "/Portfolio/static/css/main.333425ca.css.map",
     "main.0535100b.js.map": "/Portfolio/static/js/main.0535100b.js.map",
     "787.421ea985.chunk.js.map": "/Portfolio/static/js/787.421ea985.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fab03ab9.css",
+    "static/css/main.333425ca.css",
     "static/js/main.0535100b.js"
   ]
 }
