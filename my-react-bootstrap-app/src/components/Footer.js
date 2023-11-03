@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedinIn, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import logoSCWhite from '../assets/img/logo_SC_white.png';
+
 import './Footer.scss';
 
 const Footer = () => {
@@ -18,6 +19,7 @@ const Footer = () => {
           <ul className='list-unstyled d-flex gap-4'>
             <li className='icon'><a href='https://www.linkedin.com/in/soniacasanova/' target='_blank' rel='noopener noreferrer'><FontAwesomeIcon icon={faLinkedinIn} className='color-light' /></a></li>
             <li className='icon'><a href='mailto:soniacasanovar@gmail.com'><FontAwesomeIcon icon={faEnvelope} className='color-light'/></a></li>
+            <li className='icon'><a href='https://www.instagram.com/uiplaygroundchallenges/'><FontAwesomeIcon icon={faInstagram} className='color-light'/></a></li>
           </ul>
         </div>
       </div>

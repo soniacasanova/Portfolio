@@ -139,7 +139,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="column p-0">
-                <div className="img-box-project">
+                <div className="img-box-project text-center">
                 <Link to={`/project/${project.id}`}>
                   <img src={coverImage} alt='cover project Nutrific' />
                   </Link>
