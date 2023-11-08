@@ -5,6 +5,7 @@ import { faPaintBrush, faCode } from '@fortawesome/free-solid-svg-icons'
 import arrow from '../assets/img/arrow.png'
 import mouse from '../assets/img/Nutrific/mouse.png'
 import coverImage from '../assets/img/Nutrific/portada_nutrific.png'
+import point from '../assets/img/pointing.png'
 import './Home.scss'
 
 
@@ -44,6 +45,7 @@ const Home = () => {
             <h1 className="pb-2 text-container">Hi! I am <span className="text">Sonia Casanova</span> <br></br>
               UX/UI Designer & Front End Developer</h1>
             <p className="subtitle">I create designs and breathe life into them with code, all while loving every moment of the process.</p>
+            <a className="go-to text-decoration-none" href="https://www.behance.net/gallery/184080049/UI-Design-Challenges-Part-1" target='_blank' rel='noopener noreferrer'>Go check my UI Design Challenges  <img src={point} className="pointing" alt="pointing hand" /></a>
             </div>
             <div className="column"></div>
           </div>

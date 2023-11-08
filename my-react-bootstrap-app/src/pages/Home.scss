@@ -31,6 +31,29 @@ h1 {
 }
 }
 
+a.go-to {
+  font-size: 18px;
+  font-weight: 500;
+  
+  img.pointing {
+    width: 3%;
+    animation: moveLeftAndRight 2s linear infinite;
+  }
+}
+
+@keyframes moveLeftAndRight {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10px); /* Move to the right */
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
 .row {
   display: flex;
   flex-direction: row;
