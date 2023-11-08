@@ -36,6 +36,7 @@ a.go-to {
   font-weight: 500;
   
   img.pointing {
+    padding-top:1rem;
     width: 3%;
     animation: moveLeftAndRight 2s linear infinite;
   }
@@ -46,7 +47,7 @@ a.go-to {
     transform: translateX(0);
   }
   50% {
-    transform: translateX(10px); /* Move to the right */
+    transform: translateX(10px);
   }
   100% {
     transform: translateX(0);
