@@ -42,7 +42,7 @@ const Home = () => {
           <div className="row animate__animated animate__fadeInUp">
             <div className="unequal-double-column">
             <h1 className="pb-2 text-container">Hi! I am <span className="text">Sonia Casanova</span> <br></br>
-              UX/UI Designer & Front End Developer</h1>
+              Product Designer & Front End Developer</h1>
             <p className="subtitle">I create designs and breathe life into them with code, all while loving every moment of the process.</p>
             <a className="go-to text-decoration-none" href="https://www.behance.net/gallery/184080049/UI-Design-Challenges-Part-1" target='_blank' rel='noopener noreferrer'>Go check my UI Design Challenges 
              <img src={mouse} className="pointing" alt="pointing hand" /></a>
@@ -58,23 +58,24 @@ const Home = () => {
                 <div className={`accordion-section ${openSections.includes(1) ? 'open' : ''}`} onClick={() => handleToggle(1)}>
                 <div className="accordion-header d-flex justify-content-between align-items-center">
                   <div className="d-flex align-items-center gap-3">
-                  <span className="icon-design fa-lg"><FontAwesomeIcon icon={faPaintBrush}/></span><h4 className="m-0">UX/UI</h4>
+                  <span className="icon-design fa-lg"><FontAwesomeIcon icon={faPaintBrush}/></span><h4 className="m-0">Product Design</h4>
                   </div>
                   <div className="" style={getArrowRotation(1)}>
                   <img src={arrow} className="w-75 arrow-skills" alt="arrow" />
                   </div>
                   </div>
                 {openSections.includes(1) && <div className="accordion-content mt-4">
-                  <p>I appreciate straightforward content layouts, minimalist design aesthetics, and thoughtful user interactions in my work.</p>
                   <h5>Design Tools</h5>
                   <ul className="list-unstyled">
-                    <li>Figma</li>
-                    <li>FontAwesome</li>
-                    <li>Pen & Paper</li>
-                    <li>Adobe XD</li>
-                    <li>Sketch</li>
-                    <li>Hotjar</li>
-                    <li>Google Analytics</li>
+                    <li>User-Centered Design</li>
+                    <li>Interactive Prototyping</li>
+                    <li>Design systems</li>
+                    <li>User Research & Insights</li>
+                    <li>Usability Testing</li>
+                    <li>Responsive Design Principles</li>
+                    <li>Accessibility Design</li>
+                    <li>UX Metrics Analysis</li>
+                    <li>A/B Testing Setup and Analysis</li>
                   </ul>
                   </div>}
                 </div>
@@ -94,7 +95,6 @@ const Home = () => {
                   </div>
                 {openSections.includes(2) && 
                 <div className="accordion-content mt-4">
-                <p>I enjoy coding from scratch and find joy in transforming ideas into interactive experiences right in the browser.</p>
                   <h5>Languages I Speak</h5>
                   <ul className="list-unstyled">
                     <li>HTML</li>
