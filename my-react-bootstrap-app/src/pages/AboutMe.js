@@ -1,7 +1,7 @@
 import React from "react";
 import './AboutMe.scss'
 import portrait from '../assets/img/IMG_2.jpg'
-import CV from '../assets/documents/CV_SoniaCasanova.pdf'
+import CV from '../assets/documents/CV_SoniaCasanova_EN.pdf'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
